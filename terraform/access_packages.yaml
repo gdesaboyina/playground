@@ -1,0 +1,15 @@
+subscriptions: 
+  - sub1
+  - sub2
+  - sub3
+
+access_package_details:
+  reader: 
+    name: "CORPIT Dev Reader Access Package"
+    group: azaccess-corpit-dev-reader
+    description: "This package providers Reader privileged on subscription and reader privileges for FWs"
+  admin: 
+    name: "CORPIT Dev Admin Access Package"
+    group: azaccess-corpit-dev-admin
+    description: "This package provides for administrative (Contributor) access"
+

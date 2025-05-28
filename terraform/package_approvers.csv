@@ -1,0 +1,3 @@
+package_name,azgroup,package_requestors,approvers
+reader,azaccess-corpit-dev-reader,CorpIT-InfraTeam,js@example.com|aa@example.com
+admin,azaccess-corpit-dev-admin,CorpIT-InfraTeam,kj@example1.com|gd@example.com|mm@example.com|dj@example1.com
