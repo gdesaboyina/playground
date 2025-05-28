@@ -1,8 +1,8 @@
 
-1. parse csv package_approvers.csv
+### parse csv package_approvers.csv
 
-Run terraform local block to get these below details and output them if approvers contains only example.com and not null
-
+1. Run terraform local block to get these below details and output them if approvers contains only example.com and not null
+```json
    {
      package_name = $package_name
      azgroup = $azgroup
@@ -10,12 +10,13 @@ Run terraform local block to get these below details and output them if approver
      manager_fallback_users = manager_fallback_users
      product_owner_users = product_owner_users
    }
+```
 
+### parse access_packages.yaml
 
-3. parse access_packages.yaml
+2. Run terraform local block to get these below details and output them
 
-Run terraform local block to get these below details and output them
-
+```json
 {
   subscription: $subscription
   package_name: $package_name
@@ -25,4 +26,5 @@ Run terraform local block to get these below details and output them
   
 }
 
+```
 
